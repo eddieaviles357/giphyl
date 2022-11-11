@@ -65,14 +65,21 @@ body {
     width: 20%;
     
     padding: 0 10px;
-    margin-left: 5px;
+    margin: 0 5px;
     
     color: white;
     font-size: 14px;
     text-align: center;
-    
+
+    box-shadow: 10px 10px 10px black;
+
     border-radius: 30px;
     cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    border: 2px solid black;
 }
 
 .remove-btn {
